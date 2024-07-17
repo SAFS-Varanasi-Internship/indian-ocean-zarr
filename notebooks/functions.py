@@ -34,3 +34,17 @@ def download_copernicus(dataset, date_start, date_end,  vars="", lat1=-12, lat2=
            overwrite_output_data = True
         )
 
+def standardize_float64(ds):
+    float64_vars = [i for i in ds.data_vars if ds[i].dtype=='float64' ] 
+    # convert float64 to float32 for consistency
+    for var in float64_vars:
+        ds[var].values = ds[var].astype('float32')
+    
+    return ds
+
+def standardize_chunk(ds, chunk_size=100):
+    # set the chunk size to t 100 days
+    for var in [i for i in ds.data_vars]:
+        ds[var]=ds[var].chunk({"time": chunk_size})
+    
+    return ds
