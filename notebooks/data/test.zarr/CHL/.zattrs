@@ -1,0 +1,16 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "lat",
+        "lon"
+    ],
+    "ancillary_variables": "flags CHL_uncertainty",
+    "coverage_content_type": "modelResult",
+    "input_files_reprocessings": "Processors versions: MODIS R2022.0NRT/VIIRSN R2022.0.1NRT/OLCIA 07.02/VIIRSJ1 R2022.0NRT/OLCIB 07.02",
+    "long_name": "Chlorophyll-a concentration - Mean of the binned pixels",
+    "standard_name": "mass_concentration_of_chlorophyll_a_in_sea_water",
+    "type": "surface",
+    "units": "milligram m-3",
+    "valid_max": 1000.0,
+    "valid_min": 0.0
+}

@@ -1,0 +1,12 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "lat",
+        "lon"
+    ],
+    "coverage_content_type": "qualityInformation",
+    "long_name": "Chlorophyll-a concentration - Uncertainty estimation",
+    "units": "%",
+    "valid_max": 32767,
+    "valid_min": 0
+}

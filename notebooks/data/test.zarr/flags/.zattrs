@@ -1,0 +1,17 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "lat",
+        "lon"
+    ],
+    "coverage_content_type": "auxiliaryInformation",
+    "flag_masks": [
+        1,
+        2
+    ],
+    "flag_meanings": "LAND INTERPOLATED",
+    "long_name": "Flags",
+    "standard_name": "status_flag",
+    "valid_max": 3,
+    "valid_min": 0
+}
