@@ -28,6 +28,8 @@ website:
     collapse-level: 1
     toc-expand: false
     contents:
+      - section: "About the data set"
+        href: index.md
       - section: "Downloading Data"
         contents:
           - text: earthaccess
@@ -47,14 +49,8 @@ website:
           - text: CHL
             href: notebooks/02_data_processing_CHL.ipynb
       - text: <img width=100px>
-      - text: <img src="/images/ecsn.png" width=100px>
-        href: https://iioe-2.incois.gov.in/ecsn/index.html
       - text: <img src="/images/ocean-decade.png" width=150px>
         href: https://oceandecade.org/
-      - text: <img src="/images/dcc-ior.png" width=150px>
-        href: https://incois.gov.in/dcc-ior/index.jsp
-      - text: <img src="/images/ecop.png" width=150px>
-        href: https://www.ecopdecade.org/
       - text: DECCaD-IO
         href: https://oceandecade.org/actions/devising-early-career-capacity-development-indocn-deccad-io/
       - text: <img src="/images/ohw.png" width=150px>
