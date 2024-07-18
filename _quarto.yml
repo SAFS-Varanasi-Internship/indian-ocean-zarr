@@ -28,7 +28,7 @@ website:
     collapse-level: 1
     toc-expand: false
     contents:
-      - section: "About the data set"
+      - text: "About the data set"
         href: index.md
       - section: "Downloading Data"
         contents:
