@@ -17,14 +17,22 @@ website:
   repo-url: https://github.com/SAFS-Varanasi-Internship/indian-ocean-zarr
   repo-actions: [edit, issue, source]
   
-  page-footer: <img src="/images/incois.png" alt="INCOIS logo" style="width:150px"><br />ITCOocean Hack2week (2023)
+  page-footer: <img src="/images/banner.png" alt="Indian Ocean" style="width:300px">
  
   sidebar:
-    logo: images/incois-logos.png
+    title: "Handbook on the Indian Ocean Zarr File"
     pinned: true
     align: center
-    
+    tools: 
+      - icon: globe
+        href: https://safs-varanasi-internship.github.io/indian-ocean-zarr/
+        text: "website"
+      - icon: github
+        href: https://github.com/safs-varanasi-internship/indian-ocean-zarr
+        text: "repo"
+        
     style: "docked"
+    search: true
     collapse-level: 1
     toc-expand: false
     contents:
@@ -48,30 +56,6 @@ website:
         contents:
           - text: CHL
             href: notebooks/02_data_processing_CHL.ipynb
-      - text: <img width=100px>
-      - text: <img src="/images/ocean-decade.png" width=150px>
-        href: https://oceandecade.org/
-      - text: DECCaD-IO
-        href: https://oceandecade.org/actions/devising-early-career-capacity-development-indocn-deccad-io/
-      - text: <img src="/images/ohw.png" width=150px>
-        href: https://www.oceanhackweek.org/
-
-  navbar:
-    background: primary
-    search: true
-    right: 
-      - icon: server
-        href: https://itcoocean.2i2c.cloud/
-        text: "JupyterHub"
-      - icon: wechat
-        href: https://github.com/orgs/Hackweek-ITCOocean/discussions
-        text: "Discussions"
-      - icon: slack
-        href: https://app.slack.com/client/T05PV2USY56/C05P7QP47UL
-        text: "Slack"
-      - icon: globe
-        href: https://github.com/Hackweek-ITCOocean
-        text: "GH org"
 
 
 format:
