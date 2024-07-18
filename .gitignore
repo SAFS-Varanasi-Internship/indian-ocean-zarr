@@ -3,3 +3,4 @@ notebooks/.ipynb_checkpoints/*
 .Rproj.user
 .ipynb_checkpoints
 notebooks/.ipynb_checkpoints/IO_currents-checkpoint.ipynb
+/.quarto/
