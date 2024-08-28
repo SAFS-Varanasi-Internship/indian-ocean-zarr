@@ -4,3 +4,8 @@ Authors: Minh Phan and Eli Holmes
 files and data for preparation of the IO Zarr file
 
 Building the book. Right now I am building locally and serving from `docs` folder.
+
+unzip tar.gz
+```
+tar -xvzf IO.tar.gz
+```
